@@ -87,6 +87,7 @@ $( document ).ready(function() {
         return false;
       }
       else {
+        validatePasswordConfirm();
         $passwordLabel.text('Password').parent().removeClass('error');
         return true;
       }
