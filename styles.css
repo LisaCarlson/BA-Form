@@ -1,0 +1,88 @@
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #3d3626;
+}
+
+form {
+  margin: 20px auto 50px auto;
+  width: 50%;
+}
+
+@media only screen and (max-width : 768px) {
+  form {
+    width: 100%;
+  }
+}
+
+label {
+  color: #4B6B81;
+}
+
+.form-group input {
+  border-radius: 0;
+  border: 2px solid #3d3626;
+  transition: all 0.3s ease-out;
+}
+
+.form-group.error input {
+  border-color: #ba3c27;
+}
+
+.form-group.error label {
+  color: #ba3c27;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #efe3b2;
+}
+
+.btn.btn-primary {
+  border-radius: 0;
+  background: #4B6B81;
+  border-color: #4B6B81;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+button.btn.btn-primary:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn.btn-primary:hover {
+  background: #C08111;
+  border-color: #C08111;
+}
+
+.btn.btn-success {
+  background: #C7C2BB;
+  border-color: #C7C2BB;
+  color: #333;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+.btn.btn-success:hover {
+  background: #1c1911;
+  border-color: #1c1911;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.success {
+  margin-top: 50px;
+}
+
+.success h2 {
+  color: #63230f;
+}
